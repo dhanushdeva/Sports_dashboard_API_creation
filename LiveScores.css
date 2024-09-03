@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  background-color: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.dashboard-container {
+  padding: 50px;
+  background-color: #fff;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.dashboard-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.dashboard-link:hover {
+  background-color: #218838;
+}
+
+.live-scores-container, .player-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.score-list, .player-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.score-item, .player-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.
+  .3s ease-in-out;
+}
+
+.score-item:hover, .player-item:hover {
+  transform: scale(1.02);
+}
+
+.team-names {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.game-status, .game-date, .player-position, .player-stats {
+  color: #555;
+  margin-top: 5px;
+}
+
+.player-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.player-details-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.player-details-link:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: #777;
+}
